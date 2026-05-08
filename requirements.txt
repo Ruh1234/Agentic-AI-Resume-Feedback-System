@@ -1,0 +1,5 @@
+streamlit
+ollama
+requests
+PyPDF2
+ddgs
