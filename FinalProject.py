@@ -9,8 +9,9 @@ st.set_page_config(page_title="Resume Feedback System", page_icon="🤖", layout
 
 # --- 2. API KEYS ---
 # Replace with your actual SerpApi key
-import os
-SERPAPI_KEY = os.getenv("SERPAPI_KEY")
+from dotenv import load_dotenv
+load_dotenv()
+SERPAPI_KEY = "your_actual_key"
 # --- 3. CUSTOM STYLING ---
 st.markdown("""
     <style>
