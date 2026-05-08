@@ -9,7 +9,7 @@ st.set_page_config(page_title="Resume Feedback System", page_icon="🤖", layout
 
 # --- 2. API KEYS ---
 # Replace with your actual SerpApi key
-SERPAPI_KEY = "928d8231409a1b282e8f4519599b95105614e296726357c852d3d7c23dac09e9"
+SERPAPI_KEY = "Your_serp_api_key"
 
 # --- 3. CUSTOM STYLING ---
 st.markdown("""
