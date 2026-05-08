@@ -9,8 +9,8 @@ st.set_page_config(page_title="Resume Feedback System", page_icon="🤖", layout
 
 # --- 2. API KEYS ---
 # Replace with your actual SerpApi key
-SERPAPI_KEY = "Your_serp_api_key"
-
+import os
+SERPAPI_KEY = os.getenv("SERPAPI_KEY")
 # --- 3. CUSTOM STYLING ---
 st.markdown("""
     <style>
